@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  
+  root :to => 'portals#index'
   resources :portals
   
   # Example resource route within a namespace:
